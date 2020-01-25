@@ -1,5 +1,6 @@
 ---
 layout:     post
+mathjax:    true
 title:      "Q-Learning and Sarsa"
 subtitle:   "implementing fundamental reinforcement learning algorithms"
 date:       2020-01-23
