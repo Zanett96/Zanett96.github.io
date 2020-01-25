@@ -1,3 +1,16 @@
+---
+layout:     post
+title:      "Q-Learning and Sarsa"
+subtitle:   "implementing fundamental reinforcement learning algorithms"
+date:       2020-01-23
+author:     "Zanett"
+header-img: "img/post-bg-js-version.jpg"
+tags:
+    - Reinforcement_Learning
+    - Sarsa
+    - Qlearning
+---
+
 # Q-Learning and Sarsa: implementing fundamental reinforcement learning algorithms
 
 > "Learning is not attained by chance, it must be sought for with ardor and attended to with diligence." -
