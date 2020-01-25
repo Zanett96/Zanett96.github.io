@@ -106,7 +106,7 @@ friends: [
     {
     #     title: "Su",
     #     href: "http://su.gallery/"
-    # },
+    # },{
         title: "Federico Taschin",
         href: "https://github.com/fedetask"
     }, {
@@ -118,5 +118,5 @@ friends: [
     }, {
         title: "Enrico Marcato",
         href: "https://github.com/enricomarcato"
-    },
+    }
 ]
