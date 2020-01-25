@@ -1,10 +1,10 @@
 # Site settings
-title: "Zanett's blog"
-SEOTitle: "Zanett's blog"
-header-img: "img/home_bg.jpg"
+title: Zanett's blog
+SEOTitle: Zanett's blog
+header-img: img/home_bg.jpg
 email: zanett96@gmail.com
-description: This is my personal blog. here I'll share knowledge of my field, computer engineering, and updates on my work. Stay tuned!
-keyword: "blog", "artificial intelligence", "data science", "computer engineer"
+description: "This is my personal blog. here I'll share knowledge of my field, computer engineering, and updates on my work. Stay tuned!"
+keyword: "blog, artificial intelligence, data science, computer engineer, machine learning"
 url:                                    # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
