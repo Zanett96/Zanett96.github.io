@@ -210,7 +210,7 @@ It's interesting to look at the fact that the rewards are initially going down: 
 
 Hope reading this helped you going trough some basic concepts of reinforcement learning. Feel free to fork my repo on Github if you want to try out the code yourself, and leave a star if you find it useful. Stay tuned for more contents!
 
-
+#reinforcement_learning
 
 
 
