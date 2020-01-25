@@ -107,7 +107,16 @@ friends: [
     #     title: "Su",
     #     href: "http://su.gallery/"
     # },
-        title: "尹峰以为",
-        href: "http://ingf.github.io/"
-    }
+        title: "Federico Taschin",
+        href: "https://github.com/fedetask"
+    }, {
+        title: "Damiano Bertoldo",
+        href: "https://github.com/ToldoDM"
+    }, {
+        title: "Enrico Marcato",
+        href: "https://github.com/enricomarcato"
+    }, {
+        title: "Michele Bortone",
+        href: "https://github.com/mikb96"
+    },
 ]
