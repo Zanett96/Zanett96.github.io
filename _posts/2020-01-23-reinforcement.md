@@ -34,7 +34,7 @@ A Markov decision process is defined as a 4-tuple $(S, A,P_a ,R_a )$ , where:
 * $P_a$ is the probability that the agent will move from the state $s$ to the state $s^{\prime}$ after performing the action $a$;
 * $R_a$ is the immediate reward (or expected immediate reward) received from moving from $s$ to $s^{\prime}$ after performing the action $a$. 
 
-![Markov decision process](https://raw.githubusercontent.com/Zanett96/Zanett96.github.io/master/img/markovian_environment.png)
+![Markov decision process](https://raw.githubusercontent.com/Zanett96/Zanett96.github.io/master/img/in-post/markovian_environment.png)
 
 The agent is trying to maximise the reward by taking the correct action. In particular, maximizing the instantaneous reward is not always the correct action. To learn more complex behaviour, the agent needs to learn over time. Thus, the agent tries to maximize the **long-term expected reward**, which is defined as
 
@@ -192,19 +192,19 @@ The bootrap method used to update the Q-values is the same formula we've already
 
 You can expect your agent to behave randomly in the early episodes, trying to learn as much as possible from the environment surrounding it.
 
- <div style="text-align:center"><img src="https://raw.githubusercontent.com/Zanett96/Zanett96.github.io/master/img/pit_gif1.gif" /></div>
+ <div style="text-align:center"><img src="https://raw.githubusercontent.com/Zanett96/Zanett96.github.io/master/img/in-post/pit_gif1.gif" /></div>
 
 But give it some time and you can rest assured it will become an ace in reaching the goal!
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/Zanett96/Zanett96.github.io/master/img/pit_gif2.gif" /></div>
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/Zanett96/Zanett96.github.io/master/img/in-post/pit_gif2.gif" /></div>
 
 Both Q-learning and SARSA will lead our agent to the goal, but there are some difference we have to take into account. As I said previously, SARSA is more conservative than Q-learning: thus it will prefer a "longer" path towards the goal (therefore also getting less reward) but safer (it will try to keep distance from what cause the penalties, like the borders or the pit). You can compare the previous pathing of a trained agent using Q-learning with a trained agent using SARSA ($\varepsilon$-greedy policy):
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/Zanett96/Zanett96.github.io/master/img/pit_gif3.gif" /></div>
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/Zanett96/Zanett96.github.io/master/img/in-post/pit_gif3.gif" /></div>
 
 A common way to compare the performance of different algorithms in reinforcement learning is plotting the cumulative reward (the sum of all rewards received so far) as a function of the number of steps.
 
-<div style="text-align:center"><img src="https://raw.githubusercontent.com/Zanett96/Zanett96.github.io/master/img/rew2.PNG" /></div>
+<div style="text-align:center"><img src="https://raw.githubusercontent.com/Zanett96/Zanett96.github.io/master/img/in-post/rew2.PNG" /></div>
 
 It's interesting to look at the fact that the rewards are initially going down: this is how much reward must be sacrificed before it starts to improve. In particular, when the zero is crossed the algorithm has recouped its cost of learning. Here it's clear how sarsa using $\varepsilon$-greedy performs worse than Q-learning in terms of sheer reward. This is because sarsa take a longer route for turning around the pit, resulting in lower reward. More complex policies like Softmax can provide better results, but are not always possible to implement. We can also see that basic algorithm like the greedy Q-learning can still outperform on-policy algorithm like sarsa depending on the situation. 
 
