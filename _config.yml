@@ -113,10 +113,10 @@ friends: [
         title: "Damiano Bertoldo",
         href: "https://github.com/ToldoDM"
     }, {
-        title: "Enrico Marcato",
-        href: "https://github.com/enricomarcato"
-    }, {
         title: "Michele Bortone",
         href: "https://github.com/mikb96"
+    }, {
+        title: "Enrico Marcato",
+        href: "https://github.com/enricomarcato"
     }
 ]
