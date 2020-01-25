@@ -10,6 +10,7 @@ tags:
     - Reinforcement_Learning
     - Sarsa
     - Qlearning
+    - Python
 ---
 
 > "Learning is not attained by chance, it must be sought for with ardor and attended to with diligence." -
@@ -207,11 +208,6 @@ A common way to compare the performance of different algorithms in reinforcement
 It's interesting to look at the fact that the rewards are initially going down: this is how much reward must be sacrificed before it starts to improve. In particular, when the zero is crossed the algorithm has recouped its cost of learning. Here it's clear how sarsa using $\varepsilon$-greedy performs worse than Q-learning in terms of sheer reward. This is because sarsa take a longer route for turning around the pit, resulting in lower reward. More complex policies like Softmax can provide better results, but are not always possible to implement. We can also see that basic algorithm like the greedy Q-learning can still outperform on-policy algorithm like sarsa depending on the situation. 
 
 Hope reading this helped you going trough some basic concepts of reinforcement learning. Feel free to fork my repo on Github if you want to try out the code yourself, and leave a star if you find it useful. Stay tuned for more contents!
-
-#reinforcement_learning
-
-
-
 
 ### sources
 > ["Deep Learning"](http://www.deeplearningbook.org), by Ian Goodfellow and Yoshua Bengio and Aaron Courville
