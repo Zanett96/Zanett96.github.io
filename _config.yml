@@ -107,16 +107,16 @@ friends: [
     #     title: "Su",
     #     href: "http://su.gallery/"
     # },{
-        title: "Federico Taschin",
+        title: "Federico",
         href: "https://github.com/fedetask"
     }, {
-        title: "Damiano Bertoldo",
+        title: "Damiano",
         href: "https://github.com/ToldoDM"
     }, {
-        title: "Michele Bortone",
+        title: "Michele",
         href: "https://github.com/mikb96"
     }, {
-        title: "Enrico Marcato",
+        title: "Enrico",
         href: "https://github.com/enricomarcato"
     }
 ]
