@@ -5,7 +5,7 @@ title:      "Q-Learning and Sarsa"
 subtitle:   "implementing fundamental reinforcement learning algorithms"
 date:       2020-01-23
 author:     "Zanett"
-header-img: "img/post-bg-js-version.jpg"
+header-img: 
 tags:
     - Reinforcement_Learning
     - Sarsa
