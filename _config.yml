@@ -21,7 +21,7 @@ twitter_username:   Zanet_96
 linkedin_username:  marco-zanetti-35b857170
 
 # Set this to true to get LaTeX math equation support
-use_math: true
+mathjax: true
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
