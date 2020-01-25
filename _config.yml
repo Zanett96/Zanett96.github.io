@@ -1,11 +1,11 @@
 # Site settings
 title: Zanett's blog
-SEOTitle: Zanett96's blog
-header-img: img/home-bg.jpg
+SEOTitle: Huxpro
+header-img: 
 email: zanettt96@gmail.com
 description: This is my personal blog. here I'll share knowledge of my field, computer engineering, and updates on my work. Stay tuned!
 keyword: 
-url:             # your host, for absolute URL
+url:                                    # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -16,8 +16,8 @@ RSS: false
 weibo_username:     
 zhihu_username:     
 github_username:    Zanett96
-twitter_username:   huxpro
-#facebook_username:  huxpro
+twitter_username:   Zanet_96
+#facebook_username:  
 linkedin_username:  marco-zanetti-35b857170
 
 
@@ -78,8 +78,8 @@ ga_domain:
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "For the next quantum leap<br>"
-sidebar-avatar: /img/avatar-hux-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: IT student living in Italy and dreaming big
+sidebar-avatar: https://avatars0.githubusercontent.com/u/47916640?s=460&v=4      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
