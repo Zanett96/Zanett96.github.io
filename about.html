@@ -5,6 +5,11 @@ description: "personal"
 header-img: img/about-bg.jpg
 ---
 
+<!-- English Version -->
+<div class="en post-container">
+    {% capture about_en %}{% include about/en.md %}{% endcapture %}
+    {{ about_en | markdownify }}
+</div>
 
 {% if site.disqus_username %}
 <!-- disqus 评论框 start -->
