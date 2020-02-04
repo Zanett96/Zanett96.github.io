@@ -41,7 +41,7 @@ $$G_t = R_{t+1} +\gamma R_{t+2}+\gamma R_{t+3}+\ldots + = \sum_{k=0}^\infty \gam
 
 where $\gamma$ is a parameter called **discount** between $0 \leq \gamma < 1$ used to represents the *foresightedness* of the agent.
 The presence of delayed rewards makes however the task more complex: it is hard to link the reward with the past actions that led to it.
-We can define the\emph{ value function} of a state as the expected reward in the state as
+We can define the value function  of a state as the expected reward in the state as
 
 $$v(s) = E[G_t \vert S_t=s]$$
         
