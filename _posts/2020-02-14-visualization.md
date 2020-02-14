@@ -776,10 +776,10 @@ sn.jointplot(x="birth_rate", y="urbanization", data=reduced_russian)
 
 
 
-![png](https://github.com/Zanett96/Zanett96.github.io/blob/master/img/in-post/visualization/visu_16.png)
+![png](https://raw.githubusercontent.com/Zanett96/Zanett96.github.io/master/img/in-post/visualization/visu_16.png)
 
 
-Let's not swith focus to 
+Let's not switch our focus over 
 ## <a name="compo"></a>Composition
 Composition shows what particular feature are present on the data, and how they change over time. One of the most easy to read and popular comparison chart for statical data is 
 
