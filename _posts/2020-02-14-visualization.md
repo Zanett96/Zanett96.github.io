@@ -214,7 +214,7 @@ plt.show()
 ```
 
 
-![png](output_6_0.png)
+![png](https://raw.githubusercontent.com/Zanett96/Zanett96.github.io/master/img/in-post/visualization/visu_1.png)
 
 
 From the graph above, it's easy to evince the two variables are correlated. You can instead display a Scatter plot using Seaborn like this:
@@ -233,7 +233,7 @@ sn.scatterplot(x="Healthy life\nexpectancy", y="Ladder", data=data)
 
 
 
-![png](output_8_1.png)
+![png](https://raw.githubusercontent.com/Zanett96/Zanett96.github.io/master/img/in-post/visualization/visu_2.png)
 
 
 You can see how implementing a graph using Seaborn is much more High-level, but at the cost of many degrees of freedom. 
@@ -255,7 +255,7 @@ plt.show()
 ```
 
 
-![png](output_10_0.png)
+![png](https://raw.githubusercontent.com/Zanett96/Zanett96.github.io/master/img/in-post/visualization/visu_3.png)
 
 
 The graph is similar to what we've seen above, but now the size of the circles scale up with the Corrpution of the countries. The parameter $\alpha$ is used to set the proportional opacity of the circles. 
@@ -274,7 +274,7 @@ sn.scatterplot(x="Healthy life\nexpectancy", y="Ladder", size="Corruption",data=
 
 
 
-![png](output_12_1.png)
+![png](https://raw.githubusercontent.com/Zanett96/Zanett96.github.io/master/img/in-post/visualization/visu_4.png)
 
 
 ## Comparison
@@ -300,7 +300,7 @@ plt.show()
 ```
 
 
-![png](output_14_0.png)
+![png](https://raw.githubusercontent.com/Zanett96/Zanett96.github.io/master/img/in-post/visualization/visu_5.png)
 
 
 Where the width scale up with the Corruption of the country. 
@@ -324,7 +324,7 @@ plt.show()
 ```
 
 
-![png](output_16_0.png)
+![png](https://raw.githubusercontent.com/Zanett96/Zanett96.github.io/master/img/in-post/visualization/visu_6.png)
 
 
 With Seaborn, the implementation is simply
@@ -345,7 +345,7 @@ sn.barplot(x="Freedom", y="Country (region)", data=data_sorted[0:20],
 
 
 
-![png](output_18_1.png)
+![png](https://raw.githubusercontent.com/Zanett96/Zanett96.github.io/master/img/in-post/visualization/visu_7.png)
 
 
 ### Column Chart
@@ -362,7 +362,7 @@ plt.show()
 ```
 
 
-![png](output_20_0.png)
+![png](https://raw.githubusercontent.com/Zanett96/Zanett96.github.io/master/img/in-post/visualization/visu_8.png)
 
 
 The code for the Seaborn implementation is:
@@ -381,7 +381,7 @@ sn.barplot(x="Country (region)", y="Freedom", data=data[0:10])
 
 
 
-![png](output_22_1.png)
+![png](https://raw.githubusercontent.com/Zanett96/Zanett96.github.io/master/img/in-post/visualization/visu_9.png)
 
 
 Sometimes we just want to see how data changes over time. For example, how the PIL of a certain nation will vary over the years, or how many times you went to eat over a month. Since there's no data suitable for some example if our first dataset, let's start by importing a second dataset, this time with the Russian demography between 1990 and 2017.
@@ -501,7 +501,7 @@ plt.show()
 ```
 
 
-![png](output_26_0.png)
+![png](https://raw.githubusercontent.com/Zanett96/Zanett96.github.io/master/img/in-post/visualization/visu_10.png)
 
 
 In Seaborn, you can just simply use the following function:
@@ -524,7 +524,7 @@ sn.relplot(x="year", y="birth_rate", kind="line", data=reduced_russian)
 
 
 
-![png](output_28_2.png)
+![png](https://raw.githubusercontent.com/Zanett96/Zanett96.github.io/master/img/in-post/visualization/visu_11.png)
 
 
 It's a pretty straightforward kind of graph so I expect you to grasp how to use it efficiently right away. If we move our attention over a smaller time period (like 3 years out of the 27 in our russian dataset) and wan to take nto account a small set of variables, we can once again use Column chart. If we want instead to focus over many categories, we can use a line chart with different lines for every category we're interested in.
@@ -544,7 +544,7 @@ plt.show()
 ```
 
 
-![png](output_30_0.png)
+![png](https://raw.githubusercontent.com/Zanett96/Zanett96.github.io/master/img/in-post/visualization/visu_12.png)
 
 
 Let's focus now on the topic of
@@ -704,7 +704,7 @@ plt.show()
 ```
 
 
-![png](output_34_0.png)
+![png](https://raw.githubusercontent.com/Zanett96/Zanett96.github.io/master/img/in-post/visualization/visu_13.png)
 
 
 With Seaborn we can use the *distplot()* function. By default distplot() will provide both the histogram and fit a *Kernel density estimate *.
@@ -725,7 +725,7 @@ sn.distplot(titanic["Age"])
 
 
 
-![png](output_36_1.png)
+![png](https://raw.githubusercontent.com/Zanett96/Zanett96.github.io/master/img/in-post/visualization/visu_14.png)
 
 
 It's also possible to plot only the fit by choosing *hist=False* over the distplot function in Seaborn.
@@ -744,7 +744,7 @@ sn.distplot(titanic["Age"], hist=False)
 
 
 
-![png](output_38_1.png)
+![png](https://github.com/Zanett96/Zanett96.github.io/blob/master/img/in-post/visualization/visu_15.png)
 
 
 When we want to study the distribution over two variables, we can use once again the 
@@ -770,7 +770,7 @@ sn.jointplot(x="birth_rate", y="urbanization", data=reduced_russian)
 
 
 
-![png](output_40_2.png)
+![png](https://github.com/Zanett96/Zanett96.github.io/blob/master/img/in-post/visualization/visu_16.png)
 
 
 Let's not swith focus to 
@@ -792,7 +792,7 @@ plt.show()
 ```
 
 
-![png](output_42_0.png)
+![png](https://raw.githubusercontent.com/Zanett96/Zanett96.github.io/master/img/in-post/visualization/visu_17.png)
 
 
 ### Stacked column chart
@@ -823,7 +823,7 @@ plt.show()
 ```
 
 
-![png](output_44_0.png)
+![png](https://raw.githubusercontent.com/Zanett96/Zanett96.github.io/master/img/in-post/visualization/visu_18.png)
 
 
 If you want to showcase difference between different periods, one good way to show this is trough
@@ -846,7 +846,7 @@ plt.show()
 ```
 
 
-![png](output_46_0.png)
+![png](https://raw.githubusercontent.com/Zanett96/Zanett96.github.io/master/img/in-post/visualization/visu_19.png)
 
 
 To compare different trends, you can plot multiple areas in the same graph:
@@ -875,7 +875,7 @@ plt.show()
 ```
 
 
-![png](output_48_0.png)
+![png](https://raw.githubusercontent.com/Zanett96/Zanett96.github.io/master/img/in-post/visualization/visu_20.png)
 
 
 Or implement a stacked area graph.  A stacked area chart is what you obtain by plotting together multiple area charts. Those are best used when you want to visualize relationships of groups as a whole, helping show how each group contributes to the grandtotal.
