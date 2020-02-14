@@ -900,8 +900,3 @@ Those are most of the basic graphs you'll encounter during your analysis, but th
 > [Seaborn](https://seaborn.pydata.org/index.html)
 
 > ["Chart Chooser"](https://extremepresentation.typepad.com/blog/2006/09/choosing_a_good.html), by Andrew V. Abela
-
-
-```python
-
-```
