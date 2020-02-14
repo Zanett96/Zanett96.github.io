@@ -191,11 +191,11 @@ data.head()
 
 ## Graph categories
 
-There are many types of graphs, but we can mostly divide them in 4 basic categories, based on what we're interested in visualizing: **Relationship**, **Composition**, **Comparison**, or **Distribution**. To choose the graph which suits best your needs, you need to think about things like the numbers of feature you want to display or the nature of your data. 
+There are many types of graphs, but we can mostly divide them in 4 basic categories, based on what we're interested in visualizing: [**Relationship**](#rel), **Composition**, **Comparison**, or **Distribution**. To choose the graph which suits best your needs, you need to think about things like the numbers of feature you want to display or the nature of your data. 
 
 We'll go over all of the graph above, explaining more in detail when you should use it and how to plot it. 
 
-## Relationship
+## <a name="rel"></a>Relationship
 
 One quick way to visualize the relationships of features is by graphing two (or more) related sets. In particular, when we're working with two different features, one way to show the relation is the 
 ### Scatter plot
