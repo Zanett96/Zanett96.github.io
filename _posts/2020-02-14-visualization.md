@@ -191,7 +191,13 @@ data.head()
 
 ## Graph categories
 
-There are many types of graphs, but we can mostly divide them in 4 basic categories, based on what we're interested in visualizing: [**Relationship**](#rel), **Composition**, **Comparison**, or **Distribution**. To choose the graph which suits best your needs, you need to think about things like the numbers of feature you want to display or the nature of your data. 
+There are many types of graphs, but we can mostly divide them in 4 basic categories, based on what we're interested in visualizing: 
+1. [**Relationship**](#rel);
+2. [**Composition**](#compo);
+3. [**Comparison**](#compa); 
+4. [**Distribution**](#dist).
+
+You can use the hyperlinks to quickly navigate over the post. To choose the graph which suits best your needs, you need to think about things like the numbers of feature you want to display or the nature of your data. 
 
 We'll go over all of the graph above, explaining more in detail when you should use it and how to plot it. 
 
@@ -277,7 +283,7 @@ sn.scatterplot(x="Healthy life\nexpectancy", y="Ladder", size="Corruption",data=
 ![png](https://raw.githubusercontent.com/Zanett96/Zanett96.github.io/master/img/in-post/visualization/visu_4.png)
 
 
-## Comparison
+## <a name="compa"></a>Comparison
 With Comparison Charts we aim at showing the difference (or similarity) between two or more variables. One main way to distinguish between comparison graphs is understanding if we want to analize data which changes over time, or static data. 
 
 In the static domain, we can show correlations between two variables and the data trough a 
@@ -548,7 +554,7 @@ plt.show()
 
 
 Let's focus now on the topic of
-## Distribution
+## <a name="dist"></a>Distribution
 Something always worth exploring is the distribution of the data, which gives us insight on how many time a certain data occurs, their normal tendecy or the range where the information span. Data might not always assume a Normal distribution, but usually data that follow some probability distribution is valuable. 
 
 When we want to focus on a specific variable distribution, we can use
@@ -774,7 +780,7 @@ sn.jointplot(x="birth_rate", y="urbanization", data=reduced_russian)
 
 
 Let's not swith focus to 
-## Composition
+## <a name="compo"></a>Composition
 Composition shows what particular feature are present on the data, and how they change over time. One of the most easy to read and popular comparison chart for statical data is 
 
 ### Pie chart
