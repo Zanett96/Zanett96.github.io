@@ -731,7 +731,7 @@ sn.distplot(titanic["Age"])
 
 
 
-![png](https://raw.githubusercontent.com/Zanett96/Zanett96.github.io/master/img/in-post/visualization/visu_15.png)
+![png](https://raw.githubusercontent.com/Zanett96/Zanett96.github.io/master/img/in-post/visualization/visu_14.png)
 
 
 It's also possible to plot only the fit by choosing *hist=False* over the distplot function in Seaborn.
@@ -750,7 +750,7 @@ sn.distplot(titanic["Age"], hist=False)
 
 
 
-![png](https://raw.githubusercontent.com/Zanett96/Zanett96.github.io/master/img/in-post/visualization/visu_16.png)
+![png](https://raw.githubusercontent.com/Zanett96/Zanett96.github.io/master/img/in-post/visualization/visu_15.png)
 
 
 When we want to study the distribution over two variables, we can use once again the 
