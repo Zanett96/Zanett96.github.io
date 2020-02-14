@@ -199,7 +199,7 @@ plt.show()
 ```
 
 
-![png](output_6_0.png)
+![png](https://raw.githubusercontent.com/Zanett96/Zanett96.github.io/master/img/in-post/visualization/visu_1.png)
 
 
 From the graph above, it's easy to evince the two variables are correlated. You can instead display a Scatter plot using Seaborn like this:
@@ -218,7 +218,7 @@ sn.scatterplot(x="Healthy life\nexpectancy", y="Ladder", data=data)
 
 
 
-![png](output_8_1.png)
+![png](https://github.com/Zanett96/Zanett96.github.io/blob/master/img/in-post/visualization/visu_2.png)
 
 
 You can see how implementing a graph using Seaborn is much more High-level, but at the cost of many degrees of freedom. 
